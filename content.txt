@@ -1,0 +1,45 @@
+Certainly, understanding that the one-off implementations are also in Azure but do not use the Blueprints provides more context. Here's a refined methodology that takes this into account:
+
+### Cloud Resiliency and Disaster Recovery Testing Methodology for Azure (Including One-Off Implementations)
+
+#### 1. **Assessment Phase:**
+
+##### a. **Identify Critical Systems & Dependencies:**
+   - Include both Blueprint-based implementations and one-off custom implementations within Azure.
+   - Evaluate dependencies across both types of implementations to ensure a holistic view.
+
+#### 2. **Planning Phase:**
+
+##### a. **Develop Test Scenarios Specific to Each Implementation:**
+   - Create tailored scenarios for both standard and one-off implementations, considering their unique configurations and dependencies.
+
+#### 3. **Development Phase:**
+
+##### a. **Implement Test Environments:**
+   - For Blueprint-based systems, leverage Azure Blueprints to create test environments.
+   - For one-off implementations, manually replicate the environment, ensuring alignment with the live configuration.
+
+#### 4. **Execution Phase:**
+
+##### a. **Conduct Tests Across All Implementations:**
+   - Execute parallel or sequential tests for both standard and one-off implementations to understand their interdependencies and interactions.
+   - Validate recovery procedures within Azure, ensuring that custom configurations are accurately restored.
+
+#### 5. **Review & Optimization Phase:**
+
+##### a. **Analyze Test Results Across All Scenarios:**
+   - Consider the interplay between Blueprint-based systems and one-off implementations, identifying potential weak links between them.
+   - Collaborate with relevant teams responsible for one-off implementations to ensure optimization.
+
+##### b. **Update & Optimize Disaster Recovery Plans:**
+   - Include specific strategies for one-off implementations, ensuring that their unique configurations are appropriately addressed within disaster recovery plans.
+
+#### 6. **Compliance & Reporting Phase:**
+
+##### a. **Ensure Unified Compliance:**
+   - Harmonize compliance efforts across both Blueprint-based and one-off implementations within Azure.
+
+##### b. **Generate Unified Reports:**
+   - Prepare reports that consider both types of implementations, providing a comprehensive view of the overall cloud resiliency and disaster recovery posture.
+
+By incorporating these specific considerations related to one-off implementations within Azure, this refined methodology provides a more comprehensive approach to testing and ensuring cloud resiliency and disaster recovery. Collaboration between teams responsible for standard and custom implementations will be vital in achieving a cohesive and robust disaster recovery strategy.
